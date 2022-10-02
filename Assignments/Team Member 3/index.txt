@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- Required meta tags-->
+<meta charset="UTF-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Colorlib Templates">
+<meta name="author" content="Colorlib">
+<meta name="keywords" content="Colorlib Templates">
+
+<!-- Title Page-->
+<title>SHI</title>
+
+<!-- Icons font CSS-->
+<link href="vendor/mdi-font/css/material-design-iconic-font.min.css"
+	rel="stylesheet" media="all">
+<link href="vendor/font-awesome-4.7/css/font-awesome.min.css"
+	rel="stylesheet" media="all">
+<!-- Font special for pages-->
+<link
+	href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+	rel="stylesheet">
+
+<!-- Vendor CSS-->
+<link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
+<link href="vendor/datepicker/daterangepicker.css" rel="stylesheet"
+	media="all">
+
+<!-- Main CSS-->
+<link href="css/main.css" rel="stylesheet" media="all">
+</head>
+
+<body>
+	<div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins">
+		<div class="wrapper wrapper--w680">
+			<div class="card card-4">
+				<div class="card-body">
+					<h2 class="title">Registration Form</h2>
+					<form method="POST" action="RegisterServlet">
+						<div class="input-group">
+							<label class="label">Ministry/Organization</label> <input
+								class="input--style-4" type="text" name="entry.1">
+						</div>
+						<div class="row row-space">
+							<div class="col-2">
+								<div class="input-group">
+									<label class="label">Problem-ID</label> <input
+										class="input--style-4" type="text" name="entry.2">
+								</div>
+							</div>
+							<div class="col-2">
+								<div class="input-group">
+									<label class="label">Team Name</label> <input class="input--style-4"
+										type="text" name="entry.3">
+								</div>
+							</div>
+						</div>
+						<div>
+							<center>
+								<label class="label"><b>Team Leader </b></label>
+							</center>
+						</div>
+						<div class="row row-space">
+
+							<div class="col-2">
+								<label class="label">Name</label>
+								<div class="input-group">
+									<input class="input--style-4" type="text" name="entry.4">
+								</div>
+							</div>
+							<div class="col-2">
+								<label class="label">Gender</label>
+								<div class="input-group">
+									<div class="p-t-10">
+										<label class="radio-container m-r-45">Male <input
+											type="radio"   name="entry.5" value="Male"> <span
+											class="checkmark"></span>
+										</label> <label class="radio-container">Female <input
+											type="radio"  name="entry.5" value="Female"> <span class="checkmark"></span>
+										</label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row row-space">
+
+							<div class="col-2">
+								<label class="label">Email-ID</label>
+								<div class="input-group">
+									<input class="input--style-4" type="mail" name="entry.6">
+								</div>
+							</div>
+							<div class="col-2">
+								<label class="label">Mobile Number</label> <input
+									class="input--style-4" type="text" name="entry.7">
+							</div>
+						</div>
+
+
+						<div>
+							<center>
+								<label class="label"><b>Team Member-1</b></label>
+							</center>
+						</div>
+
+						<div class="row row-space">
+
+							<div class="col-2">
+								<label class="label">Name</label>
+								<div class="input-group">
+									<input class="input--style-4" type="text" name="entry.8">
+								</div>
+							</div>
+							<div class="col-2">
+								<label class="label">Gender</label>
+								<div class="input-group">
+
+									<div class="p-t-10">
+										<label class="radio-container m-r-45">Male <input
+											type="radio"    name="entry.9" value="Male"> <span
+											class="checkmark"></span>
+										</label> <label class="radio-container">Female <input
+											type="radio"  name="g1"> <span class="checkmark" name="entry.9" value="Female"></span>
+										</label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row row-space">
+
+							<div class="col-2">
+								<label class="label">Email-ID</label>
+								<div class="input-group">
+									<input class="input--style-4" type="mail" name="entry.10">
+								</div>
+							</div>
+							<div class="col-2">
+								<label class="label">Mobile Number</label> <input
+									class="input--style-4" type="text" name="entry.11">
+							</div>
+						</div>
+
+
+						<div>
+							<center>
+								<label class="label"><b>Team Member-2 </b></label>
+							</center>
+						</div>
+
+						<div class="row row-space">
+
+							<div class="col-2">
+								<label class="label">Name</label>
+								<div class="input-group">
+									<input class="input--style-4" type="text" name="entry.12">
+								</div>
+							</div>
+							<div class="col-2">
+								<label class="label">Gender</label>
+								<div class="input-group">
+
+									<div class="p-t-10">
+										<label class="radio-container m-r-45">Male <input
+											type="radio"    name="entry.13" value="Male"> <span
+											class="checkmark"></span>
+										</label> <label class="radio-container">Female <input
+											type="radio"  name="entry.13" value="Female"> <span class="checkmark"></span>
+										</label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row row-space">
+
+							<div class="col-2">
+								<label class="label">Email-ID</label>
+								<div class="input-group">
+									<input class="input--style-4" type="email" name="entry.14">
+								</div>
+							</div>
+							<div class="col-2">
+								<label class="label">Mobile Number</label> <input
+									class="input--style-4" type="text" name="entry.15">
+							</div>
+						</div>
+
+						<div>
+							<center>
+								<label class="label"><b>Team Member-3</b></label>
+							</center>
+						</div>
+
+						<div class="row row-space">
+
+							<div class="col-2">
+								<label class="label">Name</label>
+								<div class="input-group">
+									<input class="input--style-4" type="text" name="entry.16">
+								</div>
+							</div>
+							<div class="col-2">
+								<label class="label">Gender</label>
+								<div class="input-group">
+
+									<div class="p-t-10">
+										<label class="radio-container m-r-45">Male <input
+											type="radio"    name="entry.17" value="Male"> <span
+											class="checkmark"></span>
+										</label> <label class="radio-container">Female <input
+											type="radio"  name="entry.17" value="Female"> <span class="checkmark"></span>
+										</label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row row-space">
+
+							<div class="col-2">
+								<label class="label">Email-ID</label>
+								<div class="input-group">
+									<input class="input--style-4" type="mail" name="entry.18">
+								</div>
+							</div>
+							<div class="col-2">
+								<label class="label">Mobile Number</label> <input
+									class="input--style-4" type="text" name="entry.19">
+							</div>
+						</div>
+
+						<div>
+							<center>
+								<label class="label"><b>Team Member-4</b></label>
+							</center>
+						</div>
+
+						<div class="row row-space">
+
+							<div class="col-2">
+								<label class="label">Name</label>
+								<div class="input-group">
+									<input class="input--style-4" type="text" name="entry.20">
+								</div>
+							</div>
+							<div class="col-2">
+								<label class="label">Gender</label>
+								<div class="input-group">
+
+									<div class="p-t-10">
+										<label class="radio-container m-r-45">Male <input
+											type="radio"    name="entry.21" value="Male"> <span
+											class="checkmark"></span>
+										</label> <label class="radio-container">Female <input
+											type="radio"  name="entry.21" value="Female"> <span class="checkmark"></span>
+										</label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row row-space">
+
+							<div class="col-2">
+								<label class="label">Email-ID</label>
+								<div class="input-group">
+									<input class="input--style-4" type="email" name="entry.22">
+								</div>
+							</div>
+							<div class="col-2">
+								<label class="label">Mobile Number</label> <input
+									class="input--style-4" type="text" name="entry.23">
+							</div>
+						</div>
+
+						<div>
+							<center>
+								<label class="label"><b>Team Member-5</b></label>
+							</center>
+						</div>
+
+						<div class="row row-space">
+
+							<div class="col-2">
+								<label class="label">Name</label>
+								<div class="input-group">
+									<input class="input--style-4" type="text" name="entry.24" >
+								</div>
+							</div>
+							<div class="col-2">
+								<label class="label">Gender</label>
+								<div class="input-group">
+
+									<div class="p-t-10">
+										<label class="radio-container m-r-45">Male <input
+											type="radio"   name="entry.25" disabled value="Male"> <span
+											class="checkmark"></span>
+										</label> <label class="radio-container">Female <input
+											type="radio"  name="entry.25" value="Female" > <span class="checkmark"></span>
+										</label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row row-space">
+
+							<div class="col-2">
+								<label class="label">Email-ID</label>
+								<div class="input-group">
+									<input class="input--style-4" type="email" name="entry.26">
+								</div>
+							</div>
+							<div class="col-2">
+								<label class="label">Mobile Number</label> <input
+									class="input--style-4" type="text" name="entry.27">
+							</div>
+						</div>
+
+
+						<div class="input-group">
+							<label class="label">Document</label> <input
+									class="input--style-4" type="text" name="name="entry.28"" >
+							
+						</div>
+						<div class="p-t-15">
+							<button class="btn btn--radius-2 btn--blue" type="submit" name="dlut">Submit</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+</body>
+
+
+</html>
